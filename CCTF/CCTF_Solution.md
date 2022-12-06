@@ -10,6 +10,7 @@ The user need to store his private key somewhere. Because all of his submissions
 Solidity documentation release 0.6.4 : <br/>
 “Everything that is inside a contract is visible to all observers external to the blockchain. Making something private only prevents other contracts from reading or modifying the information, but it will still be visible to the whole world outside of the blockchain.” p. 90<br/>
 
-Main issue with the flag submission is that someone who do not understand the challenge can just copy the call and steal the flag (as everything is publicly visible). Possible solutions:
+Main issue with the flag submission is that someone who do not understand the challenge can just copy the call and steal the flag (as everything is publicly visible). Possible improvment:
 - use zero-knowledge smart contract as the one implemented by Aztec to obfuscate part of the information.
 - rely on ECSDA to encrypt message (solution + address of the sender) only the owner can decrypt and give the flag (if correct).
+- locking the flag ("king of the hill"), can't be stolen again.
