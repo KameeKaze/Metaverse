@@ -9,6 +9,7 @@ The user need to store his private key somewhere. Because all of his submissions
 
 Solidity documentation release 0.6.4 :
 “Everything you use in a smart contract is publicly visible, even local variables and state variables marked private. Using random numbers in smart contracts is quite tricky if you do not want miners to be able to cheat.” p. 153
+“Everything that is inside a contract is visible to all observers external to the blockchain. Making something private only prevents other contracts from reading or modifying the information, but it will still be visible to the whole world outside of the blockchain.” p. 90
 
 Main issue with the flag submission is that someone who do not understand the challenge can just copy the call and steal the flag (as everything is publicly visible). Possible solutions:
 - use zero-knowledge smart contract as the one implemented by Aztec to obfuscate part of the information.
