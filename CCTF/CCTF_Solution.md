@@ -11,5 +11,5 @@ Solidity documentation release 0.6.4 :
 “Everything you use in a smart contract is publicly visible, even local variables and state variables marked private. Using random numbers in smart contracts is quite tricky if you do not want miners to be able to cheat.” p. 153
 
 Main issue with the flag submission is that someone who do not understand the challenge can just copy the call and steal the flag (as everything is publicly visible). Possible solutions:
-- use zero-knowledge smart contract as the one implemented by Aztec to obfuscate part of the information
-- rely on ECSDA to encrypt message (solution + address of the sender) only the owner can derypt and give the flag (if correct)
+- use zero-knowledge smart contract as the one implemented by Aztec to obfuscate part of the information.
+- rely on ECSDA to encrypt message (solution + address of the sender) only the owner can decrypt and give the flag (if correct).
