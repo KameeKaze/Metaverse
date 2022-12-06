@@ -18,7 +18,7 @@ Uses encryption to keep data secure.
 
 ## Think about timing and even if you have multiple addresses, balance checks can give a good base for statistics on which addresses belong to the same wallet/browser
 
-- Tornado cache?
+Several methods have been proposed to improve the privacy of blockchains (mixers, zero knowledge, etc.). At the moment, the solutions relying on zero-knowledge proof of knowledge are the ones providing the strongest privacy features -> using Zcash z-address to send private transaction
 
 
 ## Consider what would happen if you use the service through proxy/TOR/etc
