@@ -1,0 +1,3 @@
+[submodule "rmrk2-examples"]
+	path = rmrk2-examples
+	url = https://github.com/rmrk-team/rmrk2-examples.git
