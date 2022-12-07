@@ -16,6 +16,41 @@
 ## Technical details
 [//]: # (Explain the technical details and how you'd solve the challenge. Optionally you can add pseudocode.)
 
+### Problem
+
+Remark is a great Protocoll for creating assets for Blockchain Game Assets.
+Skybreach launched this year and people can buy Chunkies.
+Chunkies are little creatures, which are living in the Skybreach Universe.
+
+**Noone can create their own Chunkie Breed 😢.**
+
+There is no rmrk game assets minter available.
+
+
+### Solution
+
+We created a game Asset Minter. 👯‍♂️
+It allows you to create your own breed.
+
+### See Results.
+
+See `./CCTF` for the secondary Challenge A
+
+See `./Privacy` for the secondary Challenge B
+
+See `./Kusama` for the secondary Challenge C. Its a optional one.
+
+---
+
+See `./Demo` for the Main Challenge. 
+
+In `./Demo/Frontend` run `yarn install` && `yarn dev` 
+
+in `./Demo/polkadot/` run `./target/release/polkadot --dev` 
+
+In `./Demo/Frontend/projects/scripts` follow the README.md  to deploy the assets in the assets Folder. It creates a .json, which has to be manually copied to `./Demo/Frontend/projects/react-demo/public/chunky-dump.json` 
+
 ## Topology
 
 [//]: # (Please provide a drawn topology, you can use https://draw.io/)
+
