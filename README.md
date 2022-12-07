@@ -23,7 +23,7 @@ Remark is a great Protocoll for creating assets for Blockchain Game Assets.
 Skybreach launched this year and people can buy Chunkies.
 Chunkies are little creatures, which are living in the Skybreach Universe.
 
-**Noone can create their own Chunkie Breed 😢.**
+**No one can create their own Chunkie Breed 😢.**
 
 There is no rmrk game assets minter available.
 
