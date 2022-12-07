@@ -7,11 +7,11 @@ The player will generate the symetric key pair on his side (this could also be a
 The user need to store his private key somewhere. Because all of his submissions will be encrypted with the 
 -->
 
-Solidity documentation release 0.6.4 : <br/>
-“Everything that is inside a contract is visible to all observers external to the blockchain. Making something private only prevents other contracts from reading or modifying the information, but it will still be visible to the whole world outside of the blockchain.” p. 90<br/>
+This contract is a platform that allow anyone to create a flag that can be capture by other participants. The main issue regards privacy: <br/> 
+“_Everything that is inside a contract is visible to all observers external to the blockchain. Making something private only prevents other contracts from reading or modifying the information, but it will still be visible to the whole world outside of the blockchain._” (Solidity documentation release 0.6.4 p. 90)<br/>
 
-Main issue with the flag submission is that someone who do not understand the challenge can just copy the call and steal the flag (as everything is publicly visible). Possible improvment:
-- use zero-knowledge smart contract as the one implemented by Aztec to obfuscate part of the information (solution to steal the flag)
-- rely on ECSDA to encrypt message (solution + address of the sender) only the owner can decrypt and give the flag (if correct).
-- locking the flag ("king of the hill"), can't be stolen again.
+Main issue with the flag submission is that someone who do not understand the challenge can just copy the answer of someone who successfully stole the flag to steal it too (as everything is publicly visible). Possible improvment:
+- use zero-knowledge smart contract (e.g. Aztec) to obfuscate part of the information (i.e. solution to steal the flag).
+- the first one who steal the flag wins (i.e. can't be stolen again).
+- send the solution to an external source (email, website) in order to protect the obfuscate the solution.
 
