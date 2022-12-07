@@ -199,8 +199,7 @@ Since everything is visible, users can see each other's submited flags. Reading 
 
 # Concept about fixing this flag stealing vulnerability.
 
-## A noninteractive Zero-knowledge proof
-
-A noninteractive ZKP, where two participants have a shared secret key, which is enough to prove that one of them knows some secret information without revealing the information itself.
-
-The user makes a proof about having the flag, while the smart contract can validate that the user has it, without actually revealing the content of the flag.
+Possible improvements: 
+- use zero-knowledge smart contract (e.g. Aztec) to obfuscate part of the information (i.e. solution to steal the flag).
+- the first one who steal the flag wins (i.e. can't be stolen again).
+- combine the smart contract with an external source (email, website,etc. ) in order to hide the solution and verify it.

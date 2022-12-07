@@ -15,6 +15,7 @@
 
 ## Technical details
 [//]: # (Explain the technical details and how you'd solve the challenge. Optionally you can add pseudocode.)
+TODO: link for the presentation
 
 ### Problem
 
