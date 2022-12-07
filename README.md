@@ -11,6 +11,7 @@
 - Secondary Challenges:
   - [CCTF](https://git.hsbp.org/Metaverse_Championship/PMC_Challenges/src/branch/master/Main_Challenges/CCTF/Challenge.md)
   - [Privacy Challenge](https://git.hsbp.org/Metaverse_Championship/PMC_Challenges/src/branch/master/Main_Challenges/Privacy_Research/Challenge.md)
+  - [Momentum/Kusamaverse](https://git.hsbp.org/Metaverse_Championship/PMC_Challenges/src/branch/master/Main_Challenges/Momentum/Challenge.md)
 
 ## Technical details
 [//]: # (Explain the technical details and how you'd solve the challenge. Optionally you can add pseudocode.)
