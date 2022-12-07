@@ -1,5 +1,5 @@
 # CCTF
-Main issue with the flag submission is that someone who do not understand the challenge can just copy the answer of someone who successfully stole the flag to steal it too (as everything is publicly visible). Reading the source code of the smart contract, reveals how the flags are validated. 
+Main issue with the flag submission is that someone who do not understand the challenge can just copy the answer of someone who successfully stole the flag to steal it too (as everything is publicly visible). Reading the source code of the smart contract, reveals how the flags is validated. 
 
 # Concept about fixing this flag stealing vulnerability.
 
