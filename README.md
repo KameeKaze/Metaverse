@@ -51,7 +51,8 @@ in `./Demo/polkadot/` run `./target/release/polkadot --dev`
 
 In `./Demo/Frontend/projects/scripts` follow the README.md  to deploy the assets in the assets Folder. It creates a .json, which has to be manually copied to `./Demo/Frontend/projects/react-demo/public/chunky-dump.json` 
 
+[Figma Presentation](https://www.figma.com/file/Y3hJkt59KDRSztrwytmQti/Polkadot-Metaverse-Hackaton-RMRK-Presentation?node-id=0%3A1&t=2hRfJJIScDcJKaev-1)
+
 ## Topology
 
 [//]: # (Please provide a drawn topology, you can use https://draw.io/)
-
