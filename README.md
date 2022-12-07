@@ -1,5 +1,7 @@
 # Polkadot Metaverse Championship 
 
+![Demo](./DemoGithub.gif)
+
 ## Team name: Comment
 - [KameeKaze](https://github.com/KameeKaze)
 - [Sgerodes](https://github.com/sgerodes)
