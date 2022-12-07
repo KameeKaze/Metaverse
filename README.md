@@ -1,10 +1,10 @@
-# Polkadot Metaverse Championship
+# Polkadot Metaverse Championship 
 
 ## Team name: Comment
-- KameeKaze
-- Sgerodes
-- FrankBevr
-- Asamartino
+- [KameeKaze](https://github.com/KameeKaze)
+- [Sgerodes](https://github.com/sgerodes)
+- [FrankBevr](https://github.com/FrankBevr)
+- [Asamartino](https://github.com/Asamartino)
 
 ## Challenges:
 - Main Challenge: [RMRK](https://git.hsbp.org/Metaverse_Championship/PMC_Challenges/src/branch/master/Main_Challenges/RMRK/Challenge.md)
