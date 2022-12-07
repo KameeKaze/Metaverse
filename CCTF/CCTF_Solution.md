@@ -13,5 +13,4 @@ This contract is a platform that allow anyone to create a flag that can be captu
 Main issue with the flag submission is that someone who do not understand the challenge can just copy the answer of someone who successfully stole the flag to steal it too (as everything is publicly visible). Possible improvment:
 - use zero-knowledge smart contract (e.g. Aztec) to obfuscate part of the information (i.e. solution to steal the flag).
 - the first one who steal the flag wins (i.e. can't be stolen again).
-- send the solution to an external source (email, website) in order to protect the obfuscate the solution.
-
+- send the solution to an external source (email, website,etc. ) in order to hide the solution.
