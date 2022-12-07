@@ -10,7 +10,8 @@ The user need to store his private key somewhere. Because all of his submissions
 This contract is a platform that allow anyone to create a flag that can be capture by other participants. The main issue regards privacy: <br/> 
 “_Everything that is inside a contract is visible to all observers external to the blockchain. Making something private only prevents other contracts from reading or modifying the information, but it will still be visible to the whole world outside of the blockchain._” (Solidity documentation release 0.6.4 p. 90)<br/>
 
-Main issue with the flag submission is that someone who do not understand the challenge can just copy the answer of someone who successfully stole the flag to steal it too (as everything is publicly visible). Possible improvment:
+Main issue with the flag submission is that someone who do not understand the challenge can just copy the answer of someone who successfully stole the flag to steal it too (as everything is publicly visible). Possible improvment for the flag submission:
 - use zero-knowledge smart contract (e.g. Aztec) to obfuscate part of the information (i.e. solution to steal the flag).
 - the first one who steal the flag wins (i.e. can't be stolen again).
-- send the solution to an external source (email, website,etc. ) in order to hide the solution.
+- combine the smart contract with an external source (email, website,etc. ) in order to hide the solution.
+- 
